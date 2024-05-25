@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jk-rpc-transport" />
+        <module name="jk-rpc-common" />
+        <module name="jk-rpc-protocol" />
+        <module name="jk-rpc-server" />
+        <module name="jk-rpc-serial" />
+        <module name="jk-rpc-client" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
