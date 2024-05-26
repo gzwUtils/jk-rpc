@@ -28,7 +28,9 @@ public class RpcServer {
     private ServiceInvoker serviceInvoker;
 
 
-
+    public RpcServer() {
+        this(new RpcServiceConfig());
+    }
 
     public RpcServer(RpcServiceConfig rpcServiceConfig) {
         this.rpcServiceConfig = rpcServiceConfig;
@@ -53,6 +55,10 @@ public class RpcServer {
 
     public void stop(){
         this.net.stop();
+    }
+
+    public  <T> void  register(Class<T> tClass,T bean){
+        serviceManager.register(tClass,bean);
     }
 
     private RequestHandler requestHandler = new RequestHandler() {

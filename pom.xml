@@ -15,6 +15,7 @@
         <module>jk-rpc-serial</module>
         <module>jk-rpc-transport</module>
         <module>jk-rpc-client</module>
+        <module>jk-rpc-test</module>
     </modules>
 
     <properties>

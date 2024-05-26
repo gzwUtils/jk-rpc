@@ -5,71 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35615d0a-ea27-457e-83de-79caba9024c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jk-rpc-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-client/src/main/java/org/example/RandomTransPortSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-client/src/main/java/org/example/RemoteInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-client/src/main/java/org/example/RpcClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-client/src/main/java/org/example/RpcClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-client/src/main/java/org/example/TransportSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-common/src/main/java/org/example/utils/ReflectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-common/src/test/java/org/example/utils/ReflectUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-common/src/test/java/org/example/utils/TestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-common/target/classes/org/example/utils/ReflectUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-common/target/test-classes/org/example/utils/ReflectUtilsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-common/target/test-classes/org/example/utils/TestCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-protocol/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-protocol/src/main/java/org/example/Peer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-protocol/src/main/java/org/example/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-protocol/src/main/java/org/example/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-protocol/src/main/java/org/example/ServiceDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-protocol/target/classes/org/example/Peer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-protocol/target/classes/org/example/Request.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-protocol/target/classes/org/example/Response.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-protocol/target/classes/org/example/ServiceDescriptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/src/main/java/org/example/Decoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/src/main/java/org/example/Encoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/src/main/java/org/example/JSONDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/src/main/java/org/example/JSONEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/src/test/java/org/example/JSONDecoderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/src/test/java/org/example/JSONEncoderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/src/test/java/org/example/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/target/classes/org/example/Decoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/target/classes/org/example/Encoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/target/classes/org/example/JSONDecoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/target/classes/org/example/JSONEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/target/test-classes/org/example/JSONDecoderTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/target/test-classes/org/example/JSONEncoderTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-serial/target/test-classes/org/example/TestBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/src/main/java/org/example/RpcServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/src/main/java/org/example/RpcServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/src/main/java/org/example/ServiceInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/src/main/java/org/example/ServiceInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/src/main/java/org/example/ServiceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/src/test/java/org/example/ServiceManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/src/test/java/org/example/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/src/test/java/org/example/TestInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/target/classes/org/example/RpcServiceConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/target/classes/org/example/ServiceInstance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/target/classes/org/example/ServiceManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/target/test-classes/org/example/ServiceManagerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/target/test-classes/org/example/TestClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-server/target/test-classes/org/example/TestInstance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-transport/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-transport/src/main/java/org/example/HttpTransportClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-transport/src/main/java/org/example/HttpTransportServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-transport/src/main/java/org/example/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-transport/src/main/java/org/example/TransportClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-transport/src/main/java/org/example/TransportServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/HttpTransportClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/HttpTransportServer$RequestServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/HttpTransportServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/RequestHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/TransportClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/TransportServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jk-rpc-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jk-rpc-test/src/main/java/org/example/Cal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jk-rpc-test/src/main/java/org/example/CalImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jk-rpc-test/src/main/java/org/example/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jk-rpc-test/src/main/java/org/example/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jk-rpc-test/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk-rpc-protocol/target/classes/org/example/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk-rpc-protocol/target/classes/org/example/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk-rpc-server/src/main/java/org/example/RpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jk-rpc-server/src/main/java/org/example/RpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/HttpTransportServer$RequestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/HttpTransportServer$RequestServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/HttpTransportServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/HttpTransportServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -118,6 +69,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/gaozhiwei/Downloads/jk-rpc/jk-rpc-test/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "fileTemplates",
     "vue.rearranger.settings.migration": "true"
@@ -127,6 +79,9 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jk-rpc-test/src/main/resources" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="junit.framework.TestCase" />
@@ -136,7 +91,33 @@
       <recent name="org.example.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceManagerTest.register">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Client" />
+      <module name="jk-rpc-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Server" />
+      <module name="jk-rpc-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JSONDecoderTest.decode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jk-rpc-serial" />
       <extension name="coverage">
@@ -169,21 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jk-rpc-common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.utils" />
-      <option name="MAIN_CLASS_NAME" value="org.example.utils.ReflectUtilsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ServiceManagerTest.register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jk-rpc-server" />
       <extension name="coverage">
@@ -202,10 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="JUnit.ServiceManagerTest.register" />
         <item itemvalue="JUnit.JSONDecoderTest.decode" />
         <item itemvalue="JUnit.JSONEncoderTest.encode" />
-        <item itemvalue="JUnit.ReflectUtilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +184,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716556303632</updated>
-      <workItem from="1716556305109" duration="17915000" />
+      <workItem from="1716556305109" duration="22357000" />
     </task>
     <servers />
   </component>
