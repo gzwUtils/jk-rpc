@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35615d0a-ea27-457e-83de-79caba9024c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jk-rpc-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-test/src/main/java/org/example/Cal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-test/src/main/java/org/example/CalImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-test/src/main/java/org/example/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-test/src/main/java/org/example/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jk-rpc-test/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jk-rpc-protocol/target/classes/org/example/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk-rpc-protocol/target/classes/org/example/Response.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jk-rpc-server/src/main/java/org/example/RpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jk-rpc-server/src/main/java/org/example/RpcServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/HttpTransportServer$RequestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/HttpTransportServer$RequestServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/HttpTransportServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk-rpc-transport/target/classes/org/example/HttpTransportServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk-rpc-client/src/main/java/org/example/RemoteInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/jk-rpc-client/src/main/java/org/example/RemoteInvoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk-rpc-client/target/classes/org/example/RemoteInvoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk-rpc-client/target/classes/org/example/RemoteInvoker.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716556303632</updated>
-      <workItem from="1716556305109" duration="22357000" />
+      <workItem from="1716556305109" duration="25299000" />
     </task>
     <servers />
   </component>

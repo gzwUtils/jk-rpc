@@ -13,7 +13,7 @@ import org.apache.commons.io.IOUtils;
  * @description： 调用远程服务的代理类
  * @since：2024/5/25 01:40
  */
-
+@SuppressWarnings("all")
 @Slf4j
 public class RemoteInvoker implements InvocationHandler {
 
@@ -36,7 +36,7 @@ public class RemoteInvoker implements InvocationHandler {
     }
 
     @Override
-    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+    public Object invoke(Object proxy, Method method, Object[] args) {
         Request request = new Request();
         request.setServiceDescriptor(ServiceDescriptor.from(clazz,method));
         request.setParameters(args);
