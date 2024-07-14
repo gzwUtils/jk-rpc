@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35615d0a-ea27-457e-83de-79caba9024c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/jk-rpc-client/src/main/java/org/example/RemoteInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/jk-rpc-client/src/main/java/org/example/RemoteInvoker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jk-rpc-client/target/classes/org/example/RemoteInvoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk-rpc-client/target/classes/org/example/RemoteInvoker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +41,15 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.5.4" />
+        <option name="customMavenHome" value="$PROJECT_DIR$/../apache-maven-3.5.4" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="$PROJECT_DIR$/../apache-maven-3.5.4/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2gunOzYjUNPxwg25ZXxhyesZunl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,15 +58,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.Server.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/gaozhiwei/Downloads/jk-rpc/jk-rpc-test/src/main/resources",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/gaozhiwei/Downloads/jk-rpc",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "fileTemplates",
     "vue.rearranger.settings.migration": "true"
   }
@@ -175,7 +187,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716556303632</updated>
-      <workItem from="1716556305109" duration="25299000" />
+      <workItem from="1716556305109" duration="28241000" />
+      <workItem from="1718470845572" duration="5214000" />
     </task>
     <servers />
   </component>

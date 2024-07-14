@@ -11,7 +11,7 @@ public class Client {
         RpcClient client = new RpcClient();
         Cal proxy = client.getProxy(Cal.class);
         int add = proxy.add(1, 2);
-        int minus = proxy.minus(1, 2);
+        int minus = proxy.minus(9, 2);
         System.out.println(add);
         System.out.println(minus);
     }
