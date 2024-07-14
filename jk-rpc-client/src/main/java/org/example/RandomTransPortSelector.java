@@ -22,7 +22,7 @@ public class RandomTransPortSelector implements TransportSelector{
     /**
      * 已经连接好的client
      */
-    private List<TransportClient> transportClients;
+    private final List<TransportClient> transportClients;
 
     @Override
     public synchronized void init(List<Peer> peers, int count, Class<? extends TransportClient> client) {
